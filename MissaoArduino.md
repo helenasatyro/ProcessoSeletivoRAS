@@ -1,4 +1,4 @@
-### Missão Arduíno
+# Missão Arduíno
 > Link do TinkerCAD - https://www.tinkercad.com/things/elvyj3PFEBz-arduinoblink
 
 Para completar a missão, foi necessário aprender os conceitos básicos de funcionamentos do arduíno, além do uso de componentes eletrônicos como o LED e a protoboard. Comecei assistindo os materiais passados na descrição da missão, além de consultar outros projeto básicos de tinkerCAD. Experimentei alguns outros códigos e setups com a protoboard para ententer melhor a parte elétrica.
