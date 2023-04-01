@@ -9,9 +9,9 @@ Para completar a missão, foi necessário aprender os conceitos básicos de func
 - Possui 14 pinos digitais, 6 pinos analógicos, e alguns pinos para funcionalidades específicas.
 
 ### Sobre Resistores
-- O resistor é um componente eletroônico utilizado para reduzir a tensão.
+- O resistor é um componente eletrônico utilizado para reduzir a corrente.
 - Existem diversos tipos de resistores, alguns de resistência fixa, outros ajustáveis manualmente, e até alguns que funcionam como sensores.
-- É possível saber a resistência oerecida por um resistor observando os anéis coloridos em seu corpo.
+- É possível saber a resistência oferecida por um resistor observando os anéis coloridos em seu corpo.
 - O resistor utilizado para a missão tem resistência de 125-130 Ohms, como pode ser observado pelos anéis:
 > Marrom = 1 | 
 > Laranja = 3 | 
@@ -25,7 +25,7 @@ Para completar a missão, foi necessário aprender os conceitos básicos de func
 - Os primeiros LEDs eram de cor vermelha, mas na década de 70, foram inventados os LEDs azul e branco, que abriram portas para mais aplicações do LED no dia a dia.
 - Hoje em dia, temos leds de diversas cores e níveis de luminosidade.
 - O terminal longo do LED (ânodo) se conecta ao lado positivo da fonte, e o terminal menor (cátodo), é ligado ao negativo.
-- LEDs suportam tensõesespecíficas, e são geralmente pareados a um resistor, cuja resistência pode ser determinada da seguinte forma: 
+- LEDs suportam tensões específicas, e são geralmente pareados a um resistor, cuja resistência pode ser determinada da seguinte forma: 
 > Consultar a tabela de tensões e amperagens para cada cor de LED: 
 > No caso foi usado um LED azul, cuja tensão recomendada é de 2,5 a 3.0 volts, e a amperagem é de 0.02A.
 > Saber a tensão da fonte de alimentação: O arduíno tem pinos digitais de saída que operam em 5V.
