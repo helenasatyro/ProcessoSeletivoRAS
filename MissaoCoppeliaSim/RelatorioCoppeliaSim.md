@@ -18,4 +18,4 @@
 
 ### Dificuldades encontradas
 
-- O movimento do pêndulo não para, provavelmente por que forças resistivas nao estão sendo levadas em consideração, isso poderia ser melhorado para ter uma simulação mais natural e acurada de um pêndulo real.
+- O movimento do pêndulo não para, provavelmente por que forças resistivas não estão sendo levadas em consideração, isso poderia ser melhorado para ter uma simulação mais natural e acurada de um pêndulo real.
