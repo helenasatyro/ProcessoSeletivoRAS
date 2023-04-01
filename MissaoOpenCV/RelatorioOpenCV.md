@@ -1,6 +1,6 @@
 # Relatório da Missão OpenCV
 - OpenCV é uma biblioteca para visão computacional.
-- Visão computacional por sua vez é a atividade computacional que foca em criar algoritmos para o reconhecimento de objetos, rostos, etc pelo computador.
+- Visão computacional por sua vez é um ramo de inteligência artificial que foca em obter informações de imagem/vídeo.
 
 ### Sobre o Programa do Capítulo 1
 - Nesse capítulo criamos um programa que abre uma imagem, exibe informações sobre ela e a salva com outro nome.
