@@ -46,8 +46,8 @@ Para completar a missão, foi necessário aprender os conceitos básicos de func
 - O arduíno UNO pode ser operado usando a linguagem C++
 - Segue o código comentado.
 - A base para o código pode ser econtrada nos exemplos inclusos com o arduíno, ela foi modificada para permitir as três velocidades de piscar.
-- 
-` void setup() // inicializa o pino como output, executado uma vez
+
+```void setup() // inicializa o pino como output, executado uma vez
 {
   pinMode(LED_BUILTIN, OUTPUT);
 }
@@ -71,12 +71,13 @@ void loop() // permanece em loop durante toda a execução
   
   for (int i; i < 3; i++)
   {
-  	digitalWrite(LED_BUILTIN, HIGH);
-  	delay(3000); // aguarda 3 segundos
-  	digitalWrite(LED_BUILTIN, LOW);
-  	delay(3000); // aguarda 3 segundos
+  	  digitalWrite(LED_BUILTIN, HIGH);
+  	  delay(3000); // aguarda 3 segundos
+  	  digitalWrite(LED_BUILTIN, LOW);
+  	  delay(3000); // aguarda 3 segundos
+    }
   }
-} ´
+  ```
 
 ### 5. Considerações finais
 - A missão permitiu adquirir conhecimentos básicos sobre uso do arduíno além de conceitos simples de eletrônica, apesar de não ter alta complexidade, foi uma ótima atividade introdutória e gerou ideias para outros projetos.
