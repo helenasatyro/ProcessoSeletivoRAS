@@ -1,14 +1,20 @@
-# Missão Arduíno
+# Relatório Sobre a Missão Arduíno
 > Link do TinkerCAD - https://www.tinkercad.com/things/elvyj3PFEBz-arduinoblink
 
-Para completar a missão, foi necessário aprender os conceitos básicos de funcionamentos do arduíno, além do uso de componentes eletrônicos como o LED e a protoboard. Comecei assistindo os materiais passados na descrição da missão, além de consultar outros projeto básicos de tinkerCAD. Experimentei alguns outros códigos e setups com a protoboard para ententer melhor a parte elétrica.
+### 1. Introdução
+O seguinte relatório pretende listar conhecimentos obtidos durante o processo de desenvolvimento da missão arduíno,para a primeira parte do processo seletivo da RAS.
 
-### Sobre o Arduíno UNO
+### 2.Resumo
+Para completar a missão, foi necessário aprender os conceitos básicos de funcionamentos do arduíno, além do uso de componentes eletrônicos como o LED e a protoboard. Foi utilizado como base o material passado na descrição da missão, além de consultas outros projeto básicos de tinkerCAD. Foi experimentado com alguns outros códigos e setups com a protoboard para entender melhor a parte elétrica. 
+
+## 3. Componentes eletrônicos
+
+### 3.1 Sobre o Arduíno UNO
 - O arduíno é uma placa microcontroladora de hardware  e software livre, desenvolvido para uso em projetos interativos. O modelo utilizado para esta missão foi o Arduino UNO, um dos modelos de arduíno para iniciantes.
 - Ele é alimentado por uma fonte USB de 7-12V, e opera em 5V, além de poder ser alimentado por fontes externas pela porta VIN, e oferecer 3,3V através do chip FDTI.
 - Possui 14 pinos digitais, 6 pinos analógicos, e alguns pinos para funcionalidades específicas.
 
-### Sobre Resistores
+### 3.2Sobre Resistores
 - O resistor é um componente eletrônico utilizado para reduzir a corrente.
 - Existem diversos tipos de resistores, alguns de resistência fixa, outros ajustáveis manualmente, e até alguns que funcionam como sensores.
 - É possível saber a resistência oferecida por um resistor observando os anéis coloridos em seu corpo.
@@ -19,7 +25,7 @@ Para completar a missão, foi necessário aprender os conceitos básicos de func
 > Dourado = tolerância de 5% | 
 > 13 x 10 = 130 +-5
 
-### Sobre os LEDs
+### 3.3 Sobre os LEDs
 - LEDs ou Light Emitting Diodes são, com o nome indica, diodos que emitem luz.
 - Difere da lâmpada por emitir luz de um material sólido. Não emite calor, e gasta menos energia.
 - Os primeiros LEDs eram de cor vermelha, mas na década de 70, foram inventados os LEDs azul e branco, que abriram portas para mais aplicações do LED no dia a dia.
@@ -35,7 +41,8 @@ Para completar a missão, foi necessário aprender os conceitos básicos de func
 
 > R = (5 - 2.5) / 0.02 = 125 Ohms
 
-### Sobre o código
+### 4. Código
+
 - O arduíno UNO pode ser operado usando a linguagem C++
 - Segue o código comentado.
 - A base para o código pode ser econtrada nos exemplos inclusos com o arduíno, ela foi modificada para permitir as três velocidades de piscar.
@@ -71,5 +78,5 @@ void loop() // permanece em loop durante toda a execução
   }
 } ´
 
-### Considerações finais
+### 5. Considerações finais
 - A missão permitiu adquirir conhecimentos básicos sobre uso do arduíno além de conceitos simples de eletrônica, apesar de não ter alta complexidade, foi uma ótima atividade introdutória e gerou ideias para outros projetos.
