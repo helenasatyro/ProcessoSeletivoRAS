@@ -9,10 +9,11 @@ O presente relatório tem objetivo de documentar o processo do desenvolvimento d
 A forma de condução deste trabalho está descrita em três partes:
 1. Desenvolvimento: descrito em etapas, com anexos mostrando o progresso.
 2. Descrição do código: em anexo, o código usado no programa está documentado descrevendo cada ação.
+3. Considerações finais
 
 ## 1. Desenvolvimento
 ### A. Calibrar a detecção de cores - Estudo
-Para compreender completamente cada parte do funcionamento do código e da biblioteca, diversas implementações foram testadas, o histórico de código e comentários de cada uma está descrito no relatório ou no próprio código.
+Para compreender completamente cada parte do funcionamento do código e da biblioteca, diversas implementações foram testadas, o histórico de código e comentários de cada uma está descrito no relatório ou no próprio código. O arquivo parcialB.py contém o histórico de código até o tópico B.
 
 Para compreender a detecção pura de cor: calibrando detecção de azul.
 A partir do mapa de HSV em anexo (M), foram escolhidos valores iniciais para a calibragem: 
@@ -70,7 +71,16 @@ Pontos negativos da segunda opção incluem não exibir o movimento das bordas d
 
 A fórmula usada para calcular o centro do contorno[5] retorna um valor similar ao da diferença que poderíamos obter se procurássemos o centro do retângulo dividindo largura e altura por 2, porém ela considera o contorno, o que leva ao ponto nem sempre estar no centro exato do retângulo, mas ainda assim no centroide da máscara.
 
+## 2. Comentários de Código
 
+Cada linha relevante de código está explicada através dos comentários de python.
+
+## 3. Considerações Finais
+
+Durante o período da segunda etapa, foi desenvolvido um código que permite rastrear objetos com base na cor, exibindo um contorno, sua posição e sua trajetória. Essa missão foi um desafio principalmente devido à complexidade das bibliotecas usadas, especialmente na parte de flow óptico, onde uma dedicação maiorde tempo e experiência poderiam ter ajudado a criar uma implementação mais eficiente e precisa. Algumas falhas que podem ser apontadas no código são a baixa modularização, e falta de precisão em determinados pontos, como a maneira errática que os píxeis piscam e fazem os retângulos tremularem. 
+Pontos positivos incluem a possibilidade de escolher acompanhar um ou mais objetos, e a forma simples de representar a trajetória, que foi escolhida ao invés da função específica de OpenCV mas tirou conceitos da própria, a trajetória também tem a vantagem de permitir ter, pela distância entre os pontos do rastro, uma ideia da velocidade do objeto, e evidentemente, o fato dele funcionar de acordo com as especificações mesmo com algumas falhas.
+
+Na missão pude aprender mais sobre o sistema de cores HSV, sobre limiarização, e algoritmos de detecção de borda, e testar diversas formas de implementação de código, além de, claro exercitar a documentação e registros enquanto escrevia o relatório e coletava imagens ilustrativas, o que talvez tenha sido uma das partes mais interessantes: explicar como foi criado o programa e pensar sobre as razões para cada linha. 
 
 --------
 BIBLIOGRAFIA:

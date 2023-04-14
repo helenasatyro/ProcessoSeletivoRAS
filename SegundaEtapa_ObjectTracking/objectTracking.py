@@ -60,7 +60,7 @@ def contornador(contorno, frame, contador, arrayPontos, periodo, comprimento):
             # desenho do círculo atual é feito em todos os frames, não a cada dez, para explicitar a continuidade
             cv2.circle(frame, (cx, cy), 4, (0, 0, 255), -1)
             # texto indicando a posição atual do objeto é impresso na tela com um pequeno offset do ponto central
-            cv2.putText(frame, coordenada, (cx - 20, cy - 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 2)
+            cv2.putText(frame, coordenada, (cx - 20, cy - 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
         #retângulo que contém o objeto é desenhado na tela
         cv2.drawContours(frame, [rect], -1, (0, 0, 255),2)
 
