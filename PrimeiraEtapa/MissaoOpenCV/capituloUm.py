@@ -1,7 +1,7 @@
 # Importa openCV
 import cv2
 # Lê a imagem, dados guaradados em lista de atributos
-imagem = cv2.imread('fotnha.jpg')
+imagem = cv2.imread('fotnha.jpeg')
 print(imagem.shape)
 print('Largura em pixels: ', end='')
 print(imagem.shape[1]) #largura da imagem
