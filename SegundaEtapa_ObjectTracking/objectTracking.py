@@ -153,10 +153,9 @@ while True:
 
 # EXIBIÇÂO
     # Exibem a imagem da webcam com os objetos destacados
-    img = np.concatenate((frame, mask), axis=1)
-    cv2.imshow("webcam - mask", img)
+    cv2.imshow("webcam", frame)
     # Exibe a máscara do que está sendo detectado
-    #cv2.imshow("mask", mask)
+    cv2.imshow("mask", mask)
 
     #aguarda 1 milissegundo antes de mostrar o pròximo frame ou checa para ver se a tecla de saída foi pressionada para encerrar o loop
     if cv2.waitKey(1) & 0xFF == ord("q") or 0xFF == 27:
