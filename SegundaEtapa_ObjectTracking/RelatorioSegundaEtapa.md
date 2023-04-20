@@ -77,7 +77,7 @@ O maior ponto negativo da primeira opção era a dificuldade de lidar com ruído
 Pontos negativos da segunda opção incluem não exibir o movimento das bordas do objeto, mas sim de um ponto central, e também não ter uma visualização contínua da trajetória. Porém a visualização pode se tornar mais contínua se o intervalo de tempo entre registro de pontos for diminuído, e o tamanho do array de pontos for aumentado. A quantidade mantida em código foi arbitrada para cumprir o propósito de mostrar o movimento enquanto também economizando memória de processamento, evitando atrasos no vídeo. O modo de tracking de múltiplos objetos guarda menos pontos e os computa em intervalos maiores. (Anexo D1)
 No entanto, a representação descontínua tem a vantagem de passar a grosso modo, através das distâncias entre os pontos, uma ideia de velocidade.
 
-A fórmula usada para calcular o centro do contorno[5] retorna um valor similar ao da diferença que poderíamos obter se procurássemos o centro do retângulo dividindo largura e altura por 2, porém ela considera o contorno (irregular), o que leva ao ponto nem sempre estar no centro exato do retângulo, mas ainda assim no centroide da máscara. (Anexo D2)
+A fórmula usada para calcular o centro do contorno[5] retorna um valor similar ao que poderíamos obter se procurássemos o centro do retângulo dividindo largura e altura por 2, porém ela considera o contorno (irregular), o que leva ao ponto nem sempre estar no centro exato do retângulo, mas ainda assim no centroide da máscara. (Anexo D2)
 
 ## 2. Comentários de Código
 
